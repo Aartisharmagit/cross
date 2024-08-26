@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Travel Agency</h1>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Our Travel Agency</h2>
+        <p>Your adventure starts here. Explore the world with us!</p>
+    </section>
+    
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination">
+
+            <a href="https://www.youtube.com/watch?v=uidGkcOTjEI&pp=ygUVcGFyaXMgcm9tYW50aWNlIHBsYWNl"targe ="_main">
+            <img src="D 1.jpeg" alt="Destination 1"></a>
+            <h3>Paris</h3>
+            <p>The city of light is waiting for you.</p>
+        </div>
+        <div class="destination">
+            <a href="https://www.youtube.com/watch?v=9p3dtE98xRY&pp=ygURbmV3eW9yayBhZHZhbnR1cmU%3D"targe ="_main">
+            <img src="download.jpeg" alt="Destination 2"></a>
+            <h3>New York</h3>
+            <p>Experience the hustle and bustle of the Big Apple.</p>
+        </div>
+        <div class="destination">
+            <a href="https://www.youtube.com/watch?v=uidGkcOTjEI&pp=ygUVcGFyaXMgcm9tYW50aWNlIHBsYWNl"targe ="_main">
+            <img src="Destination 3.jpeg" alt="Destination 3"></a>
+            <h3>Tokyo</h3>
+            <p>Discover the blend of tradition and modernity in Tokyo.</p>
+        </div>
+    </section>
+
+    <section id="packages">
+        <h2>Travel Packages</h2>
+        <div class="package">
+            <h3>Romantic Paris Getaway</h3>
+            <p>3 nights stay in a luxury hotel, city tour, and a Seine River cruise.</p>
+            <span class="price">$1200</span>
+            <button class="btn">Book Now</button>
+        </div>
+        <div class="package">
+            <h3>New York Adventure</h3>
+            <p>5 nights stay, guided city tour, and tickets to Broadway shows.</p>
+            <span class="price">$1800</span>
+            <button class="btn">Book Now</button>
+        </div>
+        <div class="package">
+            <h3>Tokyo Exploration</h3>
+            <p>7 nights stay, cultural excursions, and a day trip to Mt. Fuji.</p>
+            <span class="price">$2500</span>
+            <button class="btn">Book Now</button>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <form action="https://formspree.io/f/mwpeyeay" method="Post">
+        <h2>Contact Form</h2>
+        <input type="text">
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
